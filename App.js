@@ -1,11 +1,14 @@
 
 import './App.css';
-import TodoappClass from './TodoappClass';
+
+import TodoappFun from './TodoappFun';
+
 
 function App() {
   return (
     <div className="App">
-      <TodoappClass />
+      {/* <TodoappClass /> */}
+      <TodoappFun />
 
     </div>
   );
